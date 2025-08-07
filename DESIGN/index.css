@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    width: 100% auto;
+}
+
+header {
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(rgb(53, 23, 23), rgb(17, 17, 17));
+    width: 100% auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+nav a {
+    margin-left: 60px;
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to bottom right, #3b0808, #1a1a1a);
+    background: linear-gradient(rgb(17, 17, 17), rgb(87, 15, 15))
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #cccccc;
+}
+
+.cta-button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1em;
+    background-color: #da0000;
+    color: rgb(255, 207, 207);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(rgb(180, 22, 22), rgb(71, 9, 9));
+    transition: background 0.3s ease;
+    background: linear-gradient(rgb(56, 10, 10), rgb(175, 16, 16));
+}
+
+.cta-button:hover {
+    background-color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #9b8484;
+    background: linear-gradient(bottom right, #550f0f, #921010, #fa1e1e);
+    background: linear-gradient( rgb(61, 5, 5), rgb(107, 10, 10), #290404);
+    width: 100%;
+    bottom: 0 auto;
+}
+
+span {
+    color: rgb(146, 15, 15);
+}
+
+.difuminado {
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 1%, rgba(0, 0, 0, 0) 80%);
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 1%, rgba(0, 0, 0, 0) 80%);
+}
+
+.img2 {
+    width: 70px;
+    height: 40px;
+}
