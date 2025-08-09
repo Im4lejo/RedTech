@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #1e1e1e;
+    background: linear-gradient( rgb(0, 0, 0), rgb(43, 4, 4), #460202);
     color: #f0f0f0;
     width: 100% auto;
 }
@@ -11,7 +12,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(rgb(53, 23, 23), rgb(17, 17, 17));
+    background: (rgb(14, 1, 1));
     width: 100% auto;
 }
 
@@ -35,8 +36,6 @@ nav a {
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background: linear-gradient(to bottom right, #3b0808, #1a1a1a);
-    background: linear-gradient(rgb(17, 17, 17), rgb(87, 15, 15))
 }
 
 .hero h1 {
@@ -58,13 +57,12 @@ nav a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background: linear-gradient(rgb(180, 22, 22), rgb(71, 9, 9));
     transition: background 0.3s ease;
-    background: linear-gradient(rgb(56, 10, 10), rgb(175, 16, 16));
+    background-color: #df1010;
 }
 
 .cta-button:hover {
-    background-color: #ffffff;
+    background-color: #720000;
 }
 
 footer {
@@ -73,7 +71,7 @@ footer {
     font-size: 0.9em;
     color: #9b8484;
     background: linear-gradient(bottom right, #550f0f, #921010, #fa1e1e);
-    background: linear-gradient( rgb(61, 5, 5), rgb(107, 10, 10), #290404);
+    background: linear-gradient( rgb(61, 5, 5), rgb(167, 15, 15), #290404);
     width: 100%;
     bottom: 0 auto;
 }

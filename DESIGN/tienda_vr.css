@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(255, 0, 0);
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.button1 {
+    background: linear-gradient(rgb(206, 8, 8), rgb(0, 0, 0));
+    border-style: none;
+    margin: 0 auto;
+    padding: 20px 40px;
+    cursor: pointer;
+    color: rgb(255, 221, 221);
+}
+
+.button1:hover {
+    background: linear-gradient(rgb(0, 0, 0), rgb(214, 9, 9));
+}
+
+.li {
+    text-decoration: none;
+}
