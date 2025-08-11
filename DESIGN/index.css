@@ -1,18 +1,17 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1e1e1e;
-    background: linear-gradient( rgb(0, 0, 0), rgb(43, 4, 4), #460202);
-    color: #f0f0f0;
-    width: 100% auto;
+    color: #000000;
+    background: linear-gradient(rgb(32, 1, 1), rgb(97, 3, 3))
 }
 
-header {
-    padding: 20px 10px;
+nav {
+    align-content: end;
+}
+
+.header {
+    background-color: rgb(78, 5, 5);
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: (rgb(14, 1, 1));
     width: 100% auto;
 }
 
@@ -26,13 +25,6 @@ header {
     margin-right: 20px;
 }
 
-nav a {
-    margin-left: 60px;
-    color: #f0f0f0;
-    text-decoration: none;
-    font-weight: bold;
-}
-
 .hero {
     text-align: center;
     padding: 100px 20px;
@@ -41,6 +33,7 @@ nav a {
 .hero h1 {
     font-size: 3em;
     margin-bottom: 10px;
+    color: white;
 }
 
 .hero p {
@@ -58,11 +51,11 @@ nav a {
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease;
-    background-color: #df1010;
+    background-color: #d11010;
 }
 
 .cta-button:hover {
-    background-color: #720000;
+    background-color: #ff0000;
 }
 
 footer {
@@ -73,7 +66,7 @@ footer {
     background: linear-gradient(bottom right, #550f0f, #921010, #fa1e1e);
     background: linear-gradient( rgb(61, 5, 5), rgb(167, 15, 15), #290404);
     width: 100%;
-    bottom: 0 auto;
+    bottom: 0;
 }
 
 span {
@@ -88,4 +81,40 @@ span {
 .img2 {
     width: 70px;
     height: 40px;
+}
+
+.li {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+.button1 {
+    background-color: transparent;
+    border: 1px collapse;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+
+.ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.button1:hover {
+    background-color: #ab0404;
+    border-right-color: white;
+    border-left-color: white;
+    border-top-color: white;
+    border-bottom-color: white;
 }
