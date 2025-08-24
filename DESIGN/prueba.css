@@ -1,0 +1,20 @@
+.divimg {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+.divjunto {
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 1px solid;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.divp {
+    width: 200px;
+    height: 2000px;
+}

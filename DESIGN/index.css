@@ -98,6 +98,7 @@ span {
     border-left-color: transparent;
     border-top-color: transparent;
     border-bottom-color: transparent;
+    border-style: solid;
     font-weight: bold;
     color: white;
     cursor: pointer;
@@ -113,8 +114,8 @@ span {
 
 .button1:hover {
     background-color: #ab0404;
-    border-right-color: white;
-    border-left-color: white;
-    border-top-color: white;
-    border-bottom-color: white;
+    border-right-color: rgb(255, 187, 187);
+    border-left-color: rgb(255, 199, 199);
+    border-top-color: rgb(255, 189, 189);
+    border-bottom-color: rgb(255, 191, 191);
 }
