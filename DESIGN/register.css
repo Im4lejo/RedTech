@@ -7,7 +7,7 @@ body {
 }
 
 .divmaster2 {
-    margin-top: 20px;
+    margin-top: 50px;
     width: 450px;
     background: rgba(255, 255, 255, 0.01);
     backdrop-filter: blur(12px);
@@ -38,7 +38,7 @@ h2 {
     color: rgb(255, 255, 255);
     padding-left: 10px;
     cursor: pointer;
-    transition: 0.4s ease;
+    transition: 0.3s ease;
 }
 
 .button:hover {
@@ -58,7 +58,23 @@ h2 {
 }
 
 .button1:hover {
-    background-color: rgb(227, 4, 4);
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 120px;
+    height: 35px;
+}
+
+.divbutton1 {
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.volverinicio {
+    text-decoration: none;
+    color: white;
 }
 
 .divbutton1 {
