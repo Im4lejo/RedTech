@@ -1,0 +1,104 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(
+    40deg,
+    rgb(5, 82, 137)1%,    /* Azul marino oscuro */
+    rgb(30, 49, 188) 30%, /* Violeta profundo */
+    rgb(94, 30, 158) 70% /* Violeta-azulado más luminoso */
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.divmaster2 {
+    margin-top: 150px;
+    width: 450px;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.301);
+    height: 500px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.divmaster1 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.button {
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    width: 210px;
+    height: 34px;
+}
+
+.button1 {
+    margin: 30px auto;
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+    display: inline-block;
+}
+
+.button1:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 120px;
+    height: 35px;
+}
+
+.divbutton1 {
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    }
+
+.volverinicio {
+    text-decoration: none;
+    color: white;
+}
+
+.divmaster3 {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    width: 220px;
+    height: 500px;
+}
+.divmaster4 {
+    position: fixed;
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    width: 220px;
+}
+.divmaster0 {
+    width: 450px;
+    height: 400px;
+}

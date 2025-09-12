@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    background: linear-gradient(rgb(32, 1, 1), rgb(97, 3, 3))
+}
+
+nav {
+    align-content: end;
+}
+
+.header {
+    background-color: rgb(78, 5, 5);
+    display: flex;
+    width: 100% auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #cccccc;
+}
+
+.cta-button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1em;
+    background-color: #da0000;
+    color: rgb(255, 207, 207);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    background-color: #d11010;
+}
+
+.cta-button:hover {
+    background-color: #ff0000;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #9b8484;
+    background: linear-gradient(bottom right, #550f0f, #921010, #fa1e1e);
+    background: linear-gradient( rgb(61, 5, 5), rgb(167, 15, 15), #290404);
+    width: 100%;
+    bottom: 0;
+}
+
+span {
+    color: rgb(146, 15, 15);
+}
+
+.difuminado {
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 1%, rgba(0, 0, 0, 0) 80%);
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 1%, rgba(0, 0, 0, 0) 80%);
+}
+
+.img2 {
+    width: 70px;
+    height: 40px;
+}
+
+.li {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+.button1 {
+    background-color: transparent;
+    border: 1px collapse;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-style: solid;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+
+.ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.button1:hover {
+    background-color: #ab0404;
+    border-right-color: rgb(255, 187, 187);
+    border-left-color: rgb(255, 199, 199);
+    border-top-color: rgb(255, 189, 189);
+    border-bottom-color: rgb(255, 191, 191);
+}
