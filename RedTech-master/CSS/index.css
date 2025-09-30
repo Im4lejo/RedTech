@@ -1,0 +1,163 @@
+html.body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient( 45deg, rgb(2, 0, 97) 1%, /* Azul marino oscuro */
+    rgb(0, 25, 211) 30%, /* Violeta profundo */
+    rgb(53, 0, 105) 70%, /* Violeta-azulado más luminoso */
+    rgb(53, 0, 105), rgb(0, 25, 211), rgb(2, 0, 97));
+    background-size: 400% 400%;
+    /* Hace el gradiente "más grande" para que pueda desplazarse */
+    animation: gradientShift 20s ease-in-out infinite;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+nav {
+    align-content: end;
+    width: 100%;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.108);
+    display: flex;
+    width: 100% auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.646);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.hero p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.3em;
+    color: #cccccc;
+}
+
+.cta-button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 0.9em;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+
+.cta-button:hover {
+    background-color: #ffffff;
+    color: rgb(1, 1, 160);
+}
+
+footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.035);
+    width: 100%;
+    margin-top: auto;
+}
+
+span {
+    color: rgb(146, 15, 15);
+}
+
+.difuminado {
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 1%, rgba(0, 0, 0, 0) 80%);
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 1%, rgba(0, 0, 0, 0) 80%);
+}
+
+.img2 {
+    width: 70px;
+    height: 40px;
+}
+
+.li {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+.button1 {
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-style: solid;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+
+.ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.button1:hover {
+    background-color: rgba(255, 255, 255, 0.288);
+    border: 1px solid rgba(255, 255, 255, 0.458);
+}
+
+.pharaf {
+    font-size: 1em;
+    color: #ffffff;
+    margin-top: 10px;
+}
